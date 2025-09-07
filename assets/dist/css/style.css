@@ -243,3 +243,7 @@
     display: inline-flex;
     gap: 50px;
 }
+
+#content-section .card-body .social-list ul li a::after :hover {
+    color: #4e0303;
+}
