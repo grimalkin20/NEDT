@@ -79,7 +79,7 @@
 
 #logo-row {
     background-color: #FAFDD6;
-    color: #647FBC;
+    color: #d30000;
     height: fit-content;
     font-size: 30px;
     font-weight: 600;
@@ -96,7 +96,7 @@
 
 /* NAV-BAR */
 #nav-bar {
-    background-color: #647FBC;
+    background-color: #af0000;
     color: #FFFFFF;
     height: 30px;
 }
@@ -220,3 +220,26 @@
         .filter-btn {
             transition: background 0.2s, color 0.2s;
         }
+
+/* content-section */
+
+#content-section .card-header {
+    background-color: #dd0000;
+}
+
+#content-section .card-body {
+    color: #dd0000;
+}
+
+#content-section .card-body ul li {
+    color: #260464;
+}
+
+#content-section .card-body ul li a {
+    color: #dd0000;
+}
+
+#content-section .card-body .social-list ul li a {
+    display: inline-flex;
+    gap: 50px;
+}
