@@ -1,0 +1,222 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Manufacturing+Consent&display=swap');
+
+.manufacturing-consent-regular {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.afacad-flux {
+  font-family: "Afacad Flux", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+/* == TOP BAR == */
+#topbar {
+    background-color: #91ADC8;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#topbar span {
+    color: #000000;
+    padding: 5px 0 5px 0;
+    display: inline-block;
+}
+
+#topbar i {
+    color: #000000;
+    padding: 5px 0 5px 0;
+    display: inline-block;
+
+}
+
+#topbar a {
+    text-decoration: none;
+    padding: 5px 0 5px 0;
+    display: inline-block;
+    font-weight: 700;
+}
+
+#topbar a {
+    color: #000000;
+}
+
+#topbar a :hover {
+    color: #c00000;
+}
+
+#topbar .scrolling-text {
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+            animation: scroll-left 15s linear infinite;
+        }
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+.head-social {
+   padding-left: 20px;
+}
+
+#topbar .social-head {
+    color: #000000;
+    display: inline-flex;
+    gap: 10px; /* Adjust the space as needed */
+}
+
+/* == LOGO ROW == */
+
+#logo-row {
+    background-color: #FAFDD6;
+    color: #647FBC;
+    height: fit-content;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    #logo-row {
+        font-size: 20px;
+        height: fit-content;
+        padding: 10px 0;
+    }
+    
+}
+
+/* NAV-BAR */
+#nav-bar {
+    background-color: #647FBC;
+    color: #FFFFFF;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    #nav-bar {
+        font-size: 12px;
+        height: fit-content;
+        padding: 10px 0;
+    }
+    
+}
+
+.navbar {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    align-self: center;
+    align-items: center;
+}
+
+.navbar .nav-link {
+    color: #FFFFFF;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.navbar .nav-link:hover {
+    color: #FAFDD6;
+    text-decoration: underline;
+}
+
+.navbar i {
+    color: #FFFFFF;
+}
+
+
+/* == slider == */
+
+#customImageSlider .carousel-inner {
+            height: 60vh;
+        }
+        #customImageSlider img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        @media (max-width: 768px) {
+            #customImageSlider .carousel-inner {
+            height: 30vh;
+            }
+            #customImageSlider img {
+            height: 100%;
+            }
+        }
+
+/* == Whatsapp float == */
+
+.whatsapp-float {
+    position: fixed; 
+    left: 24px; 
+    bottom: 24px; 
+    z-index: 100; 
+    background: #25d366; 
+    color: #fff; 
+    border-radius: 50%; 
+    width: 46px; 
+    height: 46px; 
+    display: 
+    flex; align-items: 
+    center; justify-content: 
+    center; box-shadow: 0 4px 16px rgba(0,0,0,0.18); 
+    text-decoration: none;
+}
+
+.whatsapp-float i {
+    font-size: 24px; 
+    color: #ffffff;
+}
+
+.whatsapp-float:hover {
+    background: #20b358; 
+    color: #fff; 
+    text-decoration: none;
+}
+
+/* == Scroll to Top ==  */
+
+.scroll-top {
+    display: none;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 999;
+    cursor: pointer;
+    
+}
+      
+.scroll-top img {
+    width: 42px;
+    height: 42px;
+}
+
+/* Courses */
+
+.course-hover {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .course-hover:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+            border: 1px solid #6b47dc;
+        }
+        .filter-btn.active,
+        .filter-btn:focus {
+            background: #6b47dc;
+            color: #fff;
+            border: none;
+        }
+        .filter-btn {
+            transition: background 0.2s, color 0.2s;
+        }
